@@ -1,65 +1,82 @@
-
 /* шапка  */
 .head {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .order {
-    /* border: 2px black solid; */
-    display: block;
-    float: left;
-    font-size: 42px;
-    font-weight: bold;
-    
+  /* border: 2px black solid; */
+  display: block;
+  float: left;
+  font-size: 42px;
+  font-weight: bold;
+
   /* ширина блока по наполнению */
 }
 
 .sum {
-    /* border: 2px black solid; */
-    display: block;
-    float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 42px;
+  /* border: 2px black solid; */
+  display: block;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 42px;
 }
 
 .sity {
-    display: block;
-    float: left;
-    font-size: 42px;
+  display: block;
+  float: left;
+  font-size: 42px;
 }
 
 .info-orde {
-    margin: 10px;
-    display: flex;
-    align-items: flex-end;
-  
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .duplicate {
-    margin-right: 6px;
+  margin-right: 6px;
 }
 
 .completed {
-    text-decoration: underline; 
-    font-weight: bold;
-   
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .right-info {
-    margin: 15px;
-    
-    /* position: absolute; */
-    float: right;
-    
+  margin: 15px;
+
+  /* position: absolute; */
+  float: right;
 }
 
 /* инфо заказа */
 
 .order-created {
-    /* border: 2px black solid;  */
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.80);
-    padding: 10px;
-    
+  /* border: 2px black solid;  */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  
+  padding: 10px;
+}
+
+.order-created {
+  display: grid;
+  
+  grid-template-columns: 4fr 1fr 0.5fr 3fr;
+    grid-gap: 20px;
+}
+
+.order-created_title {
+    text-transform: uppercase;
+    color: gray;
+
+}
+
+.order-created_time {
+    font-weight: bold;
+}
+
+.status a {
+    padding-right: 10px;
 }
 
